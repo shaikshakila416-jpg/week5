@@ -44,3 +44,8 @@ print(few_shot_prompt)
 print("\n--- COMPARISON ---")
 print("Zero-Shot: No examples are provided.")
 print("Few-Shot: Examples are provided before the actual task.")
+    elif prompt.isdigit():
+        print("Issue: Input does not contain a meaningful instruction")
+    else:
+        print("Prompt is valid")
+ 
